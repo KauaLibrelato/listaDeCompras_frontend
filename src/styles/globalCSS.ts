@@ -246,15 +246,7 @@ export default createGlobalStyle`
    }
   }
 
-  form {
-    display: flex;
-    flex-direction: column;
-    gap: ${theme.size.sm};
-    width: 100%;
-    /* > :last-child {
-      margin-top: ${theme.size.xsm}
-    } */
-  }
+
 
 
 ::-webkit-scrollbar {
@@ -263,14 +255,5 @@ export default createGlobalStyle`
   }
 }
 
-/* ::-webkit-scrollbar-track {
-  background: ${theme.color.gray5};
-}
-::-webkit-scrollbar-thumb {
-  background: ${theme.color.primary};
-  border-radius: 10px;
-}
-::-webkit-scrollbar-thumb:hover {
-  background: ${theme.color.primary};
-} */
+
 `;

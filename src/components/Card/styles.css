@@ -1,40 +1,55 @@
-.card{
-    width: 50%;
+.card {
+  width: 50%;
 
-    background: #2b2b2b;
-    color: #fff;
+  background: #2b2b2b;
+  color: #fff;
+  transition: 0.2s ease-in-out;
 
-    border-radius: 10px;
-    margin-bottom: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
 
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 
-    padding: 24px;
+  padding: 24px;
 }
 
-.card strong{
-    font-size: 18px
+.isChecked {
+  background: #27c408;
+  transition: 0.2s ease-in-out;
 }
 
-.card input[type= "checkbox"]{
+.isChecked strong {
+  text-decoration: line-through;
+}
+
+.card strong {
+  font-size: 18px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.card input[type='checkbox'] {
   width: 16px;
   height: 16px;
-}
-
-.buttonTrash{
   cursor: pointer;
 }
 
-.buttonTrash:hover{
+.buttonTrash {
+  cursor: pointer;
+}
+
+.buttonTrash:hover {
   transition: 0.5s;
   opacity: 0.5;
 }
 
-.leftContainer{
+.leftContainer {
   display: flex;
   flex-direction: row;
   align-items: center;
   gap: 8px;
+  max-width: 80%;
 }
