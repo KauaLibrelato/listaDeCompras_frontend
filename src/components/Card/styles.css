@@ -1,0 +1,40 @@
+.card{
+    width: 50%;
+
+    background: #2b2b2b;
+    color: #fff;
+
+    border-radius: 10px;
+    margin-bottom: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 24px;
+}
+
+.card strong{
+    font-size: 18px
+}
+
+.card input[type= "checkbox"]{
+  width: 16px;
+  height: 16px;
+}
+
+.buttonTrash{
+  cursor: pointer;
+}
+
+.buttonTrash:hover{
+  transition: 0.5s;
+  opacity: 0.5;
+}
+
+.leftContainer{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+}
